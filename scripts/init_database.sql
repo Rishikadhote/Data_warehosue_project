@@ -15,7 +15,7 @@ CREATE DATABASE DataWarehouse;
 -- Use the database
 USE DataWarehouse;
 
--- Create schemas (in MySQL, schemas are namespaces within DB)
+-- Create schemas 
 CREATE SCHEMA IF NOT EXISTS bronze;
 CREATE SCHEMA IF NOT EXISTS silver;
 CREATE SCHEMA IF NOT EXISTS gold;
